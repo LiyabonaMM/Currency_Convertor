@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>   
+<head>
+  <title>Currency Converter</title>
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  <form id="currencyConverterForm">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" step="0.01" required>
+
+    <label for="sourceCurrency">From:</label>
+    <select id="sourceCurrency" required>
+      <!-- List of source currencies options -->
+    </select>
+
+    <label for="targetCurrency">To:</label>
+    <select id="targetCurrency" required>
+      <!-- List of target currencies options -->
+    </select>
+
+    <button type="submit">Convert</button>
+  </form>
+
+  <h2 id="result"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
